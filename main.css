@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap");
 body {
-  background-color: #2b2e4a !important;
+  background-color: #112d4e !important;
   direction: rtl;
 }
 body nav {
@@ -11,8 +12,12 @@ body nav a {
   color: rgb(255, 255, 255) !important;
 }
 body .content {
-  color: #f67280 !important;
+  color: #ffffff !important;
   direction: rtl;
+  font-family: "Poppins", sans-serif;
+}
+body .content img {
+  border: #dbe2ef solid 1px;
 }
 body .content .text {
   -webkit-box-align: center;
@@ -48,7 +53,7 @@ body .content .text {
     margin-top: 20px;
   }
   .bf img {
-    width: 100% !important;
+    width: 50% !important;
   }
 }
 /*# sourceMappingURL=main.css.map */
