@@ -1,3 +1,19 @@
 body {
-  background-color: rgb(105, 157, 196) !important;
+  background-color: #2b2e4a !important;
+  // background-color: rgb(105, 157, 196) !important;
+  nav {
+    color: rgb(255, 255, 255) !important;
+    a {
+      text-decoration: none;
+      color: rgb(255, 255, 255) !important;
+    }
+  }
+  .content {
+    color: #f67280 !important;
+    direction: rtl;
+    .text {
+      align-items: center;
+      align-self: center;
+    }
+  }
 }

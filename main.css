@@ -1,4 +1,23 @@
 body {
-  background-color: rgb(105, 157, 196) !important;
+  background-color: #2b2e4a !important;
+}
+body nav {
+  color: rgb(255, 255, 255) !important;
+}
+body nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255) !important;
+}
+body .content {
+  color: #f67280 !important;
+  direction: rtl;
+}
+body .content .text {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 /*# sourceMappingURL=main.css.map */
